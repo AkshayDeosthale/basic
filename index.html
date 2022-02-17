@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="frm">
+          <div class="tile">
+            <label for="username">Username</label>
+            <input
+              class="textField"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter username"
+            />
+          </div>
+          <div class="tile">
+            <label for="Password">Password</label>
+            <input
+              class="textField"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter password"
+            />
+          </div>
+          <div class="btnDiv">
+            <button type="button" class="btn" onclick="inputs()">
+              Submit the form
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="results">
+      <p>Credentials are</p>
+      <p id="cred1"></p>
+      <p id="cred2"></p>
+    </div>
+    <script src="dynamic.js"></script>
+  </body>
+</html>
